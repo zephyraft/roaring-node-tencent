@@ -5,7 +5,8 @@ rm -fr lib/roaring-aws/lib
 
 mkdir -p docker-build
 
-docker run -v $PWD/docker-build:/var/task iopipe/awslambda-npm-install --unsafe-perm --build-from-source
+#docker run -v $PWD/docker-build:/var/task iopipe/awslambda-npm-install --unsafe-perm --build-from-source
+docker run -v $PWD/docker-build:/var/task zephyrinzephyr/centos7-npm-install --unsafe-perm --build-from-source
 
 echo 'npm install OK.'
 
