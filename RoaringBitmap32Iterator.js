@@ -1,3 +1,3 @@
-const isAWS = require('./lib/is-aws')
+const isTencent = require('./lib/is-tencent')
 
-module.exports = require(isAWS ? './lib/roaring-aws/RoaringBitmap32Iterator' : 'roaring/RoaringBitmap32Iterator')
+module.exports = require(isTencent ? './lib/roaring-tencent/RoaringBitmap32Iterator' : 'roaring/RoaringBitmap32Iterator')

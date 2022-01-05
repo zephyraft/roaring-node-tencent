@@ -1,21 +1,21 @@
 {
-  "name": "roaring-aws",
+  "name": "roaring-tencent",
   "version": "1.0.6",
   "private": false,
-  "description": "roaring, precompiled for AWS lambda",
+  "description": "roaring, precompiled for tencent cloud",
   "keywords": [
     "roaring",
-    "aws"
+    "tencent"
   ],
   "license": "Apache-2.0",
-  "author": "Salvatore Previti",
-  "homepage": "https://github.com/SalvatorePreviti/roaring-node-aws#readme",
+  "author": "zephyraft",
+  "homepage": "https://github.com/zephyraft/roaring-node-tencent#readme",
   "bugs": {
-    "url": "https://github.com/SalvatorePreviti/roaring-node-aws/issues"
+    "url": "https://github.com/zephyraft/roaring-node-tencent/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SalvatorePreviti/roaring-node-aws.git"
+    "url": "git+https://github.com/zephyraft/roaring-node-tencent.git"
   },
   "engines": {
     "node": ">=10.15.0"
@@ -24,7 +24,7 @@
   "types": "index.d.ts",
   "typings": "index.d.ts",
   "files": [
-    "lib/roaring-aws/**/*.*",
+    "lib/roaring-tencent/**/*.*",
     "lib/**/*.js",
     "lib/**/*.json",
     "lib/**/*.node",

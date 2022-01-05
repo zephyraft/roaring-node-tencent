@@ -1,5 +1,5 @@
-const isAWS = require('./lib/is-aws')
+const isTencent = require('./lib/is-tencent')
 
-module.exports = require(isAWS ? './lib/roaring-aws/index' : 'roaring')
+module.exports = require(isTencent ? './lib/roaring-tencent/index' : 'roaring')
 
-module.exports.isAWS = isAWS
+module.exports.isTencent = isTencent

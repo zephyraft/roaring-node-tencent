@@ -1,7 +1,7 @@
 const path = require('path')
 const fs = require('fs')
 
-const pjsPath = path.resolve(__dirname, '../lib/roaring-aws/package.json')
+const pjsPath = path.resolve(__dirname, '../lib/roaring-tencent/package.json')
 
 const pjson = JSON.parse(fs.readFileSync(pjsPath))
 

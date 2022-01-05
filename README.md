@@ -8,7 +8,7 @@ Roaring bitmaps are compressed bitmaps. They can be hundreds of times faster.
 ## installation
 
 ```sh
-npm install --save roaring-aws
+npm install --save roaring-tencent
 ```
 
 ## serverless
@@ -16,7 +16,7 @@ npm install --save roaring-aws
 This library is [Serverless](https://serverless.com/framework/docs/providers/aws/guide/deploying/) ready.
 
 ```sh
-npm install --save roaring-aws
+npm install --save roaring-tencent
 serverless deploy
 ```
 
@@ -33,7 +33,7 @@ See https://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html
 
 ## references
 
-This package - <https://www.npmjs.com/package/roaring-aws>
+This package - <https://www.npmjs.com/package/roaring-tencent>
 
 Source code and build tools for this package - <https://github.com/SalvatorePreviti/roaring-node-aws>
 
@@ -49,7 +49,7 @@ Portable Roaring bitmaps in C - <https://github.com/RoaringBitmap/CRoaring>
 
 # API
 
-- Use require('roaring-aws') instead of require('roaring') in your code.
-- Use require('roaring-aws/RoaringBitmap32') instead of require('roaring/RoaringBitmap32') in your code.
+- Use require('roaring-tencent') instead of require('roaring') in your code.
+- Use require('roaring-tencent/RoaringBitmap32') instead of require('roaring/RoaringBitmap32') in your code.
 
 For the API see <https://github.com/SalvatorePreviti/roaring-node/blob/master/documentation/api/index.d.md> and <https://github.com/SalvatorePreviti/roaring-node>

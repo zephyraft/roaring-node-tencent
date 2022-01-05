@@ -1,21 +1,21 @@
 {
-  "name": "roaring-aws-build",
+  "name": "roaring-tencent-build",
   "version": "1.0.6",
   "private": true,
-  "description": "roaring-aws-build",
+  "description": "roaring-tencent-build",
   "keywords": [
     "roaring",
-    "aws"
+    "tencent"
   ],
   "license": "Apache-2.0",
-  "author": "Salvatore Previti",
-  "homepage": "https://github.com/SalvatorePreviti/roaring-node-aws#readme",
+  "author": "zephyraft",
+  "homepage": "https://github.com/zephyraft/roaring-node-tencent#readme",
   "bugs": {
-    "url": "https://github.com/SalvatorePreviti/roaring-node-aws/issues"
+    "url": "https://github.com/zephyraft/roaring-node-tencent/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SalvatorePreviti/roaring-node-aws.git/docker-build"
+    "url": "git+https://github.com/zephyraft/roaring-node-tencent.git/docker-build"
   },
   "main": "index.js",
   "types": "index.d.ts",

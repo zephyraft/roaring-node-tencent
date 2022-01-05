@@ -1,7 +1,7 @@
 # submodules
 
 docker-build/node_modules
-lib/roaring-aws
+lib/roaring-tencent
 
 # build output
 
