@@ -38,6 +38,8 @@
     "RoaringBitmap32Iterator.d.ts"
   ],
   "scripts": {
+    "cloud-images": "docker build -t zephyrinzephyr/centos7-npm-install -f tencent-cloud-images/Dockerfile tencent-cloud-images/",
+    "push-images": "docker push zephyrinzephyr/centos7-npm-install",
     "build": "./build.sh",
     "rebuild": "./rebuild.sh",
     "acuris-eslint": "npx acuris-eslint"

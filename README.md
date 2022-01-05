@@ -18,3 +18,4 @@ npm install --save roaring-tencent
 
 - Use require('roaring-tencent') instead of require('roaring') in your code.
 - Use require('roaring-tencent/RoaringBitmap32') instead of require('roaring/RoaringBitmap32') in your code.
+- Use `ROARING_TENCENT` env to detect tencent compatible version
